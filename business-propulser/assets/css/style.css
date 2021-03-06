@@ -519,15 +519,15 @@ section {
   padding: 40px;
 }
 
-.about h3 {
-  font-size: 14px;
+.about h1 {
+  font-size: 25px;
   font-weight: 700;
   color: #4154f1;
   text-transform: uppercase;
 }
 
 .about h2 {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
   color: #012970;
 }
@@ -569,6 +569,17 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.section-header h2{
+  font-size: 25px;
+  font-weight: 700;
+  color: #4154f1;
+  text-transform: uppercase;
+}
+.section-header p{
+  font-size: 20px;
+  font-weight: 700;
+  color: #012970;
+}
 .services .service-box {
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   height: 100%;
