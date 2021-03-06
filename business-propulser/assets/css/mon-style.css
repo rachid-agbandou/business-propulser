@@ -24,3 +24,6 @@ ul {
 .service-box ul li{
     text-align: left; 
 }
+.service-box p{
+    text-align: justify;
+}
