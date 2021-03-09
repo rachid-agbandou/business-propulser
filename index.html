@@ -18,7 +18,6 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link rel="stylesheet" href="business-propulser/assets/css/services.css">
   <link rel="stylesheet" href="business-propulser/assets/css/mon-style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
@@ -51,18 +50,20 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto" href="index.html#hero">Accueil</a></li>
-          <li><a class="nav-link scrollto" href="index.html#about">A propos</a></li>
-          <li class="dropdown"><a href="#"><span>Nos Services</span> <i class="bi bi-chevron-down active"></i></a>
+          <li><a class="nav-link scrollto active" href="#hero">Accueil</a></li>
+          <li><a class="nav-link scrollto" href="#about">A propos</a></li>
+          <li class="dropdown"><a href="#"><span>Nos services</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#web-sites">Création de Sites Web</a></li>
-              <li><a href="#design">Graphisme et Design</a></li>
-              <li><a href="#redaction">Copywriting</a></li>
-              <li><a href="#seo">SEO</a></li>
+              <li><a href="services.html#services">Tous les services</a> </li>
+              <hr>
+              <li><a href="#services">Création de Sites Web</a></li>
+              <li><a href="#services">Graphisme et Design</a></li>
+              <li><a href="#services">Copywriting</a></li>
+              <li><a href="#services">SEO</a></li>
             </ul>
           </li>
-          
-          <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="getstarted scrollto display-5" href="#about">Découvrir</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -70,8 +71,72 @@
     </div>
   </header><!-- End Header -->
 
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up">Nous Boostons vos activités grâce à notre expertise en markéting digital. </h1>
+          <h2 data-aos="fade-up" data-aos-delay="400">Rejoignez le digital avec son potentiel immense afin de promouvoir votre business et bénéficiez de notre savoir-faire pointu pour une expérience unique.</h2>
+          <div data-aos="fade-up" data-aos-delay="600">
+            <div class="text-center text-lg-start">
+              <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span>Découvrir</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
+          <img src="business-propulser/assets/img/header-img.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
   <main id="main">
-    
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h1 class="h1 display-1">Qui sommes-nous ?</h1>
+              <h2>Une agence de freelancing spécialisée dans la promotion et l'optimisation de votre business.</h2>
+              <p class="col-md-11"> <strong>Business Propulser </strong> est une agence de freelancing qui 
+                regroupe des professionnels de différents domaines de l’entrepreneuriat digital et
+                offre des services spécialisés aux entreprises et particuliers qui désirent se faire une place 
+                sur Internet ou développer leur image en ligne. Business Propulser accompagne particulièrement les nouvelles 
+                entreprises dans leur adhésion au digital en se basant sur les services tels que : <br>
+                <i class="bi bi-arrow-right display-3 text-danger"></i>
+              </p>   
+            </div>
+          </div>
+
+          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <ul class="list-parent">
+              <li class="h5"><i class="bi bi-check2-circle text-success h4"></i>&nbsp; La création de sites web</li>
+              <p>Afin de les donner une image sur Internet</p>
+
+              <li class="h5"><i class="bi bi-check2-circle text-success h4"></i></i>&nbsp; Le Graphisme et Design</li>
+              <p>Pour leur donner une vue esthétique</p>
+
+              <li class="h5"><i class="bi bi-check2-circle text-success h4"></i>&nbsp; Le Référencement (SEO)</li>
+              <p>Dans le but de les amener à gagner une notoriété sur Internet</p>
+
+              <li class="h5"><i class="bi bi-check2-circle text-success h4"></i>&nbsp; Le copywriting</li> 
+              <p>Dans le but de les fournir un contenu professionnel et optimisé</p>  
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End About Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
@@ -79,258 +144,348 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h2 class="mt-5 mb-2" id="services">Nos Services</h2> 
-            <div class="text">
-                <strong>Business Propulser</strong> est une agence web qui s'occupe de tout ce qui est de la
-                couche digitale à savoir la Création de Sites Web, le Graphisme et Web design, le Copywriting et le 
-                Référencement naturel afin d'apporter plus de baleur ajoutée à une entreprise en termes de 
-                nombre de clients et de ventes quotidiennes. 
-                Notre agence allie professionnalisme et efficacité pour un 
-                résultat satisfaisant. Nos consultants vous accompagnent dans l’intégration d’outils 
-                d’efficacité pour accroitre votre performance. <br> <br>
-                L’agence de marketing digital 
-                <strong>Business Propulser</strong> vous apportera une assistance dans votre stratégie digitale, 
-                l’e-réputation et 
-                l'augmentation de votre chiffre d'affaires. Notre expertise s'étend aux leviers majeurs 
-                liés au développement de votre visibilité
-                Nous sommes une agence web mais nous proposons aussi nos services en freelance. 
-                Les prix de nos services varient relativement en fonction de l'opition que vous auriez choisie.  
-                <a href="#pricing">Voir nos prix </a>
-
-                
-            </div> <br> 
+          <h2>Nos Services</h2>
+          <p>Nous optimiserons le fonctionnement de votre entreprise dans les domaines du digital suivants</p>
         </header>
-        <div class="text-center text-primary mb-3 h4">
-            <p>Découvrez nos services</p> <span> <i class="bi bi-arrow-down-circle-fill"></i></span>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-box blue">
+              <h3>Création de Sites Web</h3>
+              <img src="business-propulser/assets/img/code.png" class="img-fluid mb-1" alt="">
+              <p><strong>Un site web</strong>  bien conçu permettra non seulement de renforcer l’attraction, mais également 
+                l’acquisition et la rétention de nouveaux clients. Nous concevons des: 
+              </p>
+              <ul>
+                <li><i class="bi bi-check2-all text-info h4"></i>Sites vitrines </li>
+                <li><i class="bi bi-check2-all text-info h4"></i>Boutique Shopify </li>
+                <li><i class="bi bi-check2-all text-info h4"></i>Sites Wordpress </li>
+                <li><i class="bi bi-check2-all text-info h4"></i>Blogs </li>
+                <li><i class="bi bi-check2-all text-info h4"></i>Portfolio </li>
+                <li><i class="bi bi-check2-all text-info h4"></i>Sites web responsives</li>
+              </ul>
+              <a href="#" class="read-more"><span>Plus de détails</span> <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-box orange">
+              <h3>Graphisme et Design</h3>
+              <img src="business-propulser/assets/img/design.png" class="img-fluid mb-1" alt="">
+              <p>Sans des <strong>contenus visuels de qualité</strong> , votre stratégie de communication digitale n'est qu'une coquille 
+                vide. Voici là une raison pour laquelle notre agence met un accent particulier sur la conception de 
+              </p>
+              <ul>
+                <li><i class="bi bi-check2-all text-warning h4"></i>Logos </li>
+                <li><i class="bi bi-check2-all text-warning h4"></i>Bannières animées</li>
+                <li><i class="bi bi-check2-all text-warning h4"></i>Flyers/Affiches </li>
+                <li><i class="bi bi-check2-all text-warning h4"></i>Cartes de visite </li>
+                <li><i class="bi bi-check2-all text-warning h4"></i>Montage vidéo </li>
+              </ul>
+              <a href="#" class="read-more"><span>Plus de détails</span> <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-box green">
+              <h3>Copywriting</h3>
+              <img src="business-propulser/assets/img/redaction.png" class="img-fluid mb-1" alt=""><p>
+                Pour la promotion de de vos produits et services, laissez-nous sublimer vos articles publicitaires . 
+                Les contenus de qualités attirent et retiennent l’attention des internautes qui seront convertis en clients.
+                Nous assurons pour votre contenu : 
+              </p>
+              <ul>
+                <li><i class="bi bi-check2-all text-success h4"></i>Clarté </li>
+                <li><i class="bi bi-check2-all text-success h4"></i>Simplicité de compréhension</li>
+                <li><i class="bi bi-check2-all text-success h4"></i>Intérêt </li>
+                <li><i class="bi bi-check2-all text-success h4"></i>Séduction</li>
+                <li><i class="bi bi-check2-all text-success h4"></i>Vente</li>
+              </ul>
+              <a href="#" class="read-more"><span>Plus de détails</span> <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-box red">
+              <h3>Référencement (SEO)</h3>
+              <img src="business-propulser/assets/img/seo.png" class="img-fluid mb-1" alt="">
+              <p>La grande majorité des expériences sur le web commence pas un moteur de recherche. 
+                Se placer idéalement en tête des résultats des recherches est le canal d’acquisition 
+                le plus rentable du web.</p>
+              <a href="#" class="read-more"><span>Plus de détails</span> <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-8 col-md-6" data-aos="fade-up" data-aos-delay="700">
+            <div class="service-box pink">
+              <h3>Autres services</h3>
+              <p>Par ailleurs, notre agence vous permet également d’être visible grâce au <strong>SEA </strong> 
+                (Search Engine Advertising). Être visible sur Google lorsqu'on tape un mot clé 
+                signifie également se rendre visible dans les annonces publicitaires affichées dans 
+                les résultats du moteur de recherche. L'objectif pour votre marque ou votre entreprise 
+                est d’acquérir de nouveaux visiteurs vers votre site. La mise en place de la publicité 
+                Google Ads positionne votre site dans les 1ères positions de Google sur les recherches
+                 à valeur commerciale dès le lendemain. Le référencement payant ou SEA est idéal pour 
+                 gagner en visibilité rapidement. Faites appel à nos experts certifiés Google Ads pour 
+                 rentabiliser vos campagnes d'annonces sponsorisés. <br> <br>
+                <strong>Les Funnels de vente</strong>  
+                Puissant outil de marketing, le funnel de vente permet de canaliser les visiteurs de 
+                votre site internet pour les transformer en clients fidèles. Toutes les stratégies 
+                seront mises en œuvre par notre agence pour optimiser ce processus. <br> <br>
+                <strong>La Création de chatbot</strong> 
+                La disponibilité de chatbot sur votre site permet d’éliminer toutes les questions 
+                récurrentes. Des réponses rapides et à toute heure ont un fort impact sur le traitement
+                 des demandes. Nous vous créerons un chatbot pour dialoguer avec vos prospects et 
+                 clients. <br> <br>
+                <strong> Le Community management </strong>
+                Notre agence, Business Propulser, intervient sur la partie communication en ligne 
+                de votre entreprise. Elle élabore des campagnes et assure la production des contenus 
+                pour améliorer la visibilité de l’entreprise et de sa présence sur les médias sociaux.
+                 Adapté à des objectifs de notoriété, les réseaux sociaux offrent une large visibilité 
+                 auprès d’un public sélectionné. Nous gérerons vos pages sur les réseaux sociaux pour 
+                 booster vos activités à travers une communication ciblée. <br> <br>
+                <strong>La Publicité/Audience </strong> 
+                Les réseaux sociaux proposent différents types de publicité en fonction des objectifs 
+                de chaque entreprise. Nous élaborons vos campagnes de publicité, de vente, ou de 
+                fidélisation. La publicité sur les réseaux sociaux est pensée pour renforcer chaque 
+                pilier de votre marketing. En fonction de votre marché et de vos besoins, notre agence 
+                vous aide à déterminer l’objectif le plus adapté pour améliorer votre visibilité pour 
+                accroitre votre audience.</p>
+            </div>
+          </div>
+
         </div>
-        <div class="conttainer">
-            <div class="row web-sites">
-                <h5 class="text-center mt-3" id="web-sites" >Création de Sites Web</h5> 
-                <div class="col-md-5">
-                  <img src="business-propulser/assets/img/codeur.png" class="img img-fluid" alt="">
+
+      </div>
+
+    </section><!-- End Services Section -->
+ <!-- ======= F.A.Q Section ======= -->
+    <section id="faq" class="faq">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>F.A.Q</h2>
+          <p>Foires Aux Questions</p>
+        </header>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <!-- F.A.Q List 1-->
+            <div class="accordion accordion-flush" id="faqlist1">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                    Quel est notre principal objectif ?
+                  </button>
+                </h2>
+                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                  <div class="accordion-body">
+                    Business Propulser est une agence de freelancing. Nos services visent à résoudre les problèmes de nos clients en rapport avec l’activité digitale, et ce, dans les plus brefs délais. 
+                  </div>
                 </div>
-                <div class="col-md-7 sites-text">
-                    <br>
-                    <p>Dans toute stratégie de développement, la conception de site web répondant 
-                        aux besoins de la clientèle est un élément clé. Que ce soit pour présenter 
-                        votre entreprise ou votre boutique en ligne, un site web est l’outil central 
-                        de la visibilité sur internet. 
-                        Un site web bien conçu permettra non seulement de renforcer l’attraction, 
-                        mais également l’acquisition et la rétention de nouveaux clients. <br> <br>
-                        Collaborez avec notre agence de conception de site web vous permettra de 
-                        bénéficier d’un vecteur de ventes continues rentable et sur mesure. Si vous 
-                        avez l’ambition d'accélérer votre croissance et d’augmenter vos revenus, 
-                        Business Propulser est l’agence qu’il vous faut pour concevoir votre site web. <br> <br>
-                         La création de site vitrine pour la présentation de votre entreprise ou de site
-                          e-commerce pour les boutiques en ligne n’a pas de secret pour nos experts. 
-                          Notre agence digitale assure la création et la refonte de votre site internet
-                           ou site e-commerce. 
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                    Qui peut nous contacter ?
+                  </button>
+                </h2>
+                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                  <div class="accordion-body">
+                    Nous accueillons avec enthousiasme toute personne ou société recherchant un professionnel dans les domaines précédemment énumérés. Il peut s’agir d’un particulier, d’une entreprise, d’un site, d’une agence, … quelques soient leur domaine d’intervention et leur vocation. 
+                  </div>
                 </div>
-            </div>
-            
-            <br> <br>
-            <div class="row design">
-              <h5 class="text-center mt-3" id="design" >Graphisme et Web Design</h5> 
-              <div class="col-md-7 design-text">
-                <br>
-                <p>Sans des contenus visuels de qualité, votre stratégie de communication digitale 
-                  n'est qu'une coquille vide. C’est pourquoi notre agence met un accent particulier 
-                  sur la conception de bannières animées, de logo ou de votre signature numérique. <br> <br>
-                   Nous concevons aussi des Flyers, des Beach flag, des Kakemonos, des Cartes de visite, 
-                   des Vignettes YouTube et des vignettes 5euro .com pour affiner votre stratégie de 
-                   communication. Il en est de même de la réalisation de Caricatures, de Portraits, de 
-                   Mockup, des Couverture de pages de réseaux sociaux, des Stories Instagram pour que
-                    votre présence sur internet soit rentable.</p>
-            </div>
-              <div class="col-md-5">
-                <img src="business-propulser/assets/img/designer.png" class="img img-fluid" alt="">
               </div>
-              
-            </div>
-            <br> <br>
-            <div class="row redaction">
-              <h5 class="text-center mt-3" id="redaction" >Copywriting</h5> 
-              <div class="col-md-5">
-                <img src="business-propulser/assets/img/redactrice.png" class="img img-fluid" alt="">
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                    Pourquoi devez-vous nous faire confiance ?
+                  </button>
+                </h2>
+                <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                  <div class="accordion-body">
+                    Vous devez nous faire confiance car chaque commande est pour nous un défi. Par ailleurs, nos clients sont toujours sidérés par l’excellence de nos réalisations. De même, les tarifs sont très accrochants et les livraisons se font dans les délais convenus.
+                  </div>
+                </div>
               </div>
-              <div class="col-md-7 redaction-text">
-                  <br>
-                  <p>La rédaction publicitaire fait partie de nos services. 
-                    Pour la promotion de de vos produits et services, laissez-nous sublimer vos articles
-                     publicitaires pour augmenter vos revenus. Les contenus de qualités attirent et 
-                     retiennent l’attention des internautes qui seront convertis en clients.</p>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+
+            <!-- F.A.Q List 2-->
+            <div class="accordion accordion-flush" id="faqlist2">
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-1">
+                    Comment bénéficier de nos prestations ?
+                  </button>
+                </h2>
+                <div id="faq2-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                  <div class="accordion-body">
+                    Pour bénéficier de nos services, il vous suffit juste de remplir le formulaire et de notifier votre commande. Votre demande sera aussitôt prise en compte.
+                  </div>
+                </div>
               </div>
-            </div>
-            <br> <br>
-            <div class="row seo">
-              <h5 class="text-center mt-3" id="seo"><strong>Référencement (SEO)</strong> </h5> 
-              <div class="col-md-7 design-text">
-                <br>
-                <p>La grande majorité des expériences sur le web commence pas un moteur de recherche. 
-                  Se placer idéalement en tête des résultats des recherches est le canal d’acquisition 
-                  le plus rentable du web. Grâce à une stratégie SEO (Search Engine Optimization) 
-                  efficace, vous attirez des visiteurs intéressés et améliorez le nombre de demandes 
-                  provenant d’Internet. <br> <br>
-                   Nous analysons et définissons les mots clés recherchés dans 
-                  Google relatifs et essentiels au développement de votre business, l'objectif étant 
-                  d'être visible en 1ère page de Google. Puis, nous appliquons une stratégie SEO, aussi 
-                  appelé référencement naturel, visant à optimiser les trois piliers du SEO : 
-                  les performances techniques de votre site internet, la pertinence du contenu, puis la 
-                  popularité du site.</p>
-            </div>
-              <div class="col-md-5">
-                <img src="business-propulser/assets/img/referenceur.png" class="img img-fluid" alt="">
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-2">
+                    Il y a-t’ il des possibilités de signer des contrats ? Et quelle est leur durée ?
+                  </button>
+                </h2>
+                <div id="faq2-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                  <div class="accordion-body">
+                    L’agence ne vous impose rien dans ce sens. Vous pouvez signer des accords avec nous si vous le désirez. Aussi, la durée du contrat dans ce cas dépend exclusivement de vous.
+                  </div>
+                </div>
               </div>
-              
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-3">
+                    Quelle est la démarche pour passer un accord avec Business Propulser ?
+                  </button>
+                </h2>
+                <div id="faq2-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                  <div class="accordion-body">
+                    Il vous faudra réserver un appel ou une réunion pour définir quelques points essentiels de l’accord. Pour cela, envoyez-nous un mail pour mentionner votre désir ; puis vous serez contactés par notre agence pour fixer le rendez-vous.
+                  </div>
+                </div>
+              </div>
+
             </div>
-            <div class="col-lg-8 col-md-6" data-aos="fade-up" data-aos-delay="700">
-              <div class="service-box pink">
-                <h3>Autres services</h3>
-                <p>Par ailleurs, notre agence vous permet également d’être visible grâce au <strong>SEA </strong> 
-                  (Search Engine Advertising). Être visible sur Google lorsqu'on tape un mot clé 
-                  signifie également se rendre visible dans les annonces publicitaires affichées dans 
-                  les résultats du moteur de recherche. L'objectif pour votre marque ou votre entreprise 
-                  est d’acquérir de nouveaux visiteurs vers votre site. La mise en place de la publicité 
-                  Google Ads positionne votre site dans les 1ères positions de Google sur les recherches
-                   à valeur commerciale dès le lendemain. Le référencement payant ou SEA est idéal pour 
-                   gagner en visibilité rapidement. Faites appel à nos experts certifiés Google Ads pour 
-                   rentabiliser vos campagnes d'annonces sponsorisés. <br> <br>
-                  <strong>Les Funnels de vente</strong>  
-                  Puissant outil de marketing, le funnel de vente permet de canaliser les visiteurs de 
-                  votre site internet pour les transformer en clients fidèles. Toutes les stratégies 
-                  seront mises en œuvre par notre agence pour optimiser ce processus. <br> <br>
-                  <strong>La Création de chatbot</strong> 
-                  La disponibilité de chatbot sur votre site permet d’éliminer toutes les questions 
-                  récurrentes. Des réponses rapides et à toute heure ont un fort impact sur le traitement
-                   des demandes. Nous vous créerons un chatbot pour dialoguer avec vos prospects et 
-                   clients. <br> <br>
-                  <strong> Le Community management </strong>
-                  Notre agence, Business Propulser, intervient sur la partie communication en ligne 
-                  de votre entreprise. Elle élabore des campagnes et assure la production des contenus 
-                  pour améliorer la visibilité de l’entreprise et de sa présence sur les médias sociaux.
-                   Adapté à des objectifs de notoriété, les réseaux sociaux offrent une large visibilité 
-                   auprès d’un public sélectionné. Nous gérerons vos pages sur les réseaux sociaux pour 
-                   booster vos activités à travers une communication ciblée. <br> <br>
-                  <strong>La Publicité/Audience </strong> 
-                  Les réseaux sociaux proposent différents types de publicité en fonction des objectifs 
-                  de chaque entreprise. Nous élaborons vos campagnes de publicité, de vente, ou de 
-                  fidélisation. La publicité sur les réseaux sociaux est pensée pour renforcer chaque 
-                  pilier de votre marketing. En fonction de votre marché et de vos besoins, notre agence 
-                  vous aide à déterminer l’objectif le plus adapté pour améliorer votre visibilité pour 
-                  accroitre votre audience.</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End F.A.Q Section -->
+
+
+    
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Profil</h2>
+          <p>Fondateur de Business Propulser</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6 mx-auto d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <div class="member-img">
+                <img src="business-propulser/assets/img/willy.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="https://www.facebook.com/wilfried.adjalla.16"><i class="bi bi-facebook"></i></a>
+                  <a href="https://api.whatsapp.com/send?phone=+22968767497&text=Bonjour,%20nous%20sommes%20à%20votre%20service"><i class="bi bi-whatsapp"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Wilfried Adjalla</h4>
+                <span>Fondateur de l'agence</span>
               </div>
             </div>
           </div>
+
         </div>
 
-        <div class="row">
-          <!-- ======= Pricing Section ======= -->
-          <section id="pricing" class="pricing">
-              <div class="container">
+      </div>
 
-                <div class="section-title" data-aos="zoom-out">
-                  <h2>Nos Prix</h2>
-                  <p></p>Profitez des meilleurs prix sur le marché</p>
-                  Nous proposons deux types d'options pour nos services à nos clients : l'<strong>option Premium</strong>  et l'<strong>option Freelance</strong>  <br>
-                </div> <br>
-                <div>
-                  <ul>
-                    <li class="h4"><strong> Option Premium</strong></li>
-                    <p class="h6 px-4">Pour cette option, en plus de créer votre site internet tout en y intégrant
-                      vos contenus graphiques et textuels, nous vous assurons de travailler le SEO de votre 
-                      site internet afin de vous amener à vendre beaucoup plus vos articles. Cette option vous permet
-                      d'avoir de la satisfaction dans les plus brefs délais car elle vous évitera de contacter un 
-                      nouveau prestataire por chaque service. Aussi faut-il notifier que ce sera le moyen optimal de 
-                      suivi de la maintenance, de la sécurité et de l'évolution de votre site web. C'est là réside la
-                      réelle différence avec l'option freelance pour laquelle nous signons avec vous un contrat qui est mis
-                      à terme une fois que nous livrons votre commande. <br> <br>
-                      Les prix pour cette option s'échelonnent comme le montre la bande ci-dessous.
-                    </p>
-                  </ul>
-                </div> <br>
-                <div class="row">
+    </section><!-- End Team Section -->
 
-                  <div class="col-lg-3 col-md-6">
-                    <div class="box" data-aos="zoom-in">
-                      <h3>Blog</h3>
-                      <h4>800 à 3000 €</h4>
-                      <ul>
-                        <li>Blog référencé</li>
-                        <li>Introduction d'une newsletter</li>
-                        <li>Création d'un espace commentaire</li>
-                      </ul>
-                    </div>
-                  </div>
+    
 
-                  <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
-                    <div class="box featured" data-aos="zoom-in" data-aos-delay="200">
-                      <h3>Site vitrine</h3>
-                      <h4 class="h5">1000-6000 €</h4>
-                      <ul>
-                        <li>Site web responsive</li>
-                        <li>Installation des plugins essentiels</li>
-                        <li>Création d’un nombre de pages illimité</li>
-                        <li>Création d’un formulaire de contact, avec intégration de Google Maps</li>
-                        <li>Sécurisation de votre site web</li>
-                      </ul>
-                    </div>
-                  </div>
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
 
-                  <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
-                    <div class="box" data-aos="zoom-in" data-aos-delay="100">
-                      <h3>Portfolio</h3>
-                      <h4>600 à 2000 €</h4>
-                      <ul>
-                        <li>Potfolio web responsive</li>
-                        <li>Installation d’un template gratuit ou Premium</li>
-                        <li>Création d’un formulaire et d’une page de contact</li>
-                        <li>Installation des plugins</li>
-                        <li>Portfolio avec un nombre illimité de pages</li>
-                      </ul>
-                    </div>
-                  </div>
+      <div class="container" data-aos="fade-up">
 
-                      
+        <header class="section-header">
+          <h2>Contact</h2>
+          <p>Contactez-nous</p>
+        </header>
 
-                  <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
-                    <div class="box" data-aos="zoom-in" data-aos-delay="300">
-                      <span class="advanced">Avancé</span>
-                      <h3>Site E-commerce</h3>
-                      <h4>2000-60000 €</h4>
-                      <ul>
-                        <li> Installation du thème Premium et plugins de votre choix</li>
-                        <li>Interface d’administration pour la gestion des produits,
-                           catégories, commandes, clients…</li>
-                        <li> Caractéristiques produits personnalisables</li>
-                        <li>Gestion du stock</li>
-                         <li>Gestion de livraisons</li>
-                      </ul>
-                    </div>
-                  </div> <br> <br>
-                </div><br> <br>
-                <div class="row"> 
-                  <span class="h4 text-center"><strong> Option Freelance</strong></span> <br>
-                  <p class="h6 px-4">En ce qui concerne l'option freelance, vous avez la possibilité de
-                    ne commander que certains de nos services. Par exemple si vous ne voulez qu'un site internet, ou
-                    un logo pour votre marque, ou encore un contenu pour la publicité de vos articles publicitaires, 
-                    nous vous le feront sans intégrer les options complémentaires comme le référencement pour un site 
-                    web car c'est l'options que vous auriez choisie.
-                    Ou si vous ne voulez qu'un logo pour votre marque, nos prestataires en Graphisme se chargeront
-                    de vous le concevoir. <br>
-                    L'avantage avec cette option est son faible coût. Mais le principal inconvenient est que vous n'aurez pas 
-                    un contrôle précis sur votre projet et à la longue il vous reviendra plus cher de sous traiter votre projet 
-                    par des personnes ayant de stratégies de travail différente. Le mieux serait d'opter pour les bonnes 
-                    stratégies dès le début. <br>
-                    Les prix sont divers pour cette option. <br> <br>
-                    Pour plus d'assistance et de détails !  <a href="index.html#contact"><button class="btn btn-primary btn-md">Contactez-nous</button></a>
-                  </p>
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Adresse</h3>
+                  <p>Cotonou,<br>Bénin</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Contactez-nous via WhatsApp</h3>
+                  <a href="https://api.whatsapp.com/send?phone=+22968767497&text=Bonjour,%20nous%20sommes%20à%20votre%20service"><button class="btn btn-success whatsapp-btn btn-sm">Contacter</button></a>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email</h3>
+                  <p class="display-6">frodickn@business-propulser.com</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-clock"></i>
+                  <h3>Heures d'ouverture</h3>
+                  <p>7 jours/7<br>24h/24</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form action="https://formspree.io/f/mnqokeey" method="post" class="php-email-form">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Nom et Prénom">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="_replyto" placeholder="Votre Email" required>
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+
+                  <button type="submit">Envoyer</button>
                 </div>
 
               </div>
-            </section><!-- End Pricing Section -->
+            </form>
+
+          </div>
+
+        </div>
+
       </div>
-    </section><!-- End Services Section -->
- 
+
+    </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
 
@@ -371,12 +526,12 @@
           </div>
 
           <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-            <h4>Contact Us</h4>
+            <h4>Contactez-nous</h4>
             <p>
               Cotonou <br>
               Bénin<br>
                <br><br>
-              <strong>Téléphone:</strong>+229 51 08 13 31<br>
+              <strong>Téléphone:</strong> +229 51 08 13 31<br>
               <strong>Email:</strong> frodickn@business-propulser.com<br>
             </p>
 
